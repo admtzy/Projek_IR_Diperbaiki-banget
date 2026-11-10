@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.py[cod]
+.streamlit/secrets.toml
+# Dataset dan artefak dapat berukuran besar; jangan commit secara default.
+data/full_articles.csv
+artifacts/*.pkl
+artifacts/*.npy
+artifacts/documents.csv
+# Hasil evaluasi dibuat setelah penilaian valid.
+data/evaluation_per_query.csv
+data/evaluation_results.csv

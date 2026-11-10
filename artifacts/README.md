@@ -1,0 +1,1 @@
+Artefak sengaja tidak disertakan dalam paket perbaikan karena indeks lama dibuat menggunakan model lama. Jalankan `python scripts/build_index.py` untuk membuat ulang documents.csv, bm25_index.pkl, document_embeddings.npy, dan config.json.

@@ -1,0 +1,9 @@
+{
+  "model_name": "intfloat/multilingual-e5-small",
+  "model_type": "e5",
+  "max_seq_length": 512,
+  "document_count": 7542,
+  "embedding_dimension": 384,
+  "batch_size": 24,
+  "text_strategy": "title + abstract (fallback available) + keywords; passage prefix"
+}
